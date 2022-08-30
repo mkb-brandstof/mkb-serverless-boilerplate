@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "MKB Brandstof <devops@mkb-brandstof.nl>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.22.0",
+    "serverless-domain-manager": "^6.1.0",
+    "serverless-iam-roles-per-function": "^3.2.0",
+    "serverless-output-env": "^1.0.1",
+    "serverless-webpack": "^5.9.0",
+    "webpack": "^5.74.0",
+    "webpack-node-externals": "^3.0.0"
+  }
 }
