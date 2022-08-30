@@ -1,0 +1,52 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "jest"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "settings": {
+    "import/resolver": {
+      "jest": {
+        "jestConfigFile": "./jest.config.js"
+      }
+    }
+  },
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "max-len": ["warn", { "code": 110 } ],
+    "no-plusplus": ["off"],
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-unresolved": ["error", { "commonjs": true, "ignore": ["mkb-lambda-powertools/.*"] }]
+  },
+  "overrides": [
+    {
+      "files": ["tests/**/*.js"],
+      "rules": {
+        "camelcase": 1,
+        "max-lines-per-function": 0,
+        "no-console": 1,
+        "max-nested-callbacks": 0
+      }
+    },
+    {
+      "files": ["scripts/**/*.js"],
+      "rules": {
+        "camelcase": 1,
+        "max-lines-per-function": 0,
+        "max-nested-callbacks": 0
+      }
+    }
+  ]
+}
+
