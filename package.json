@@ -31,5 +31,9 @@
   },
   "lint-staged": {
     "*.js": "npx eslint"
+  },
+  "dependencies": {
+    "@middy/core": "^3.3.0",
+    "@middy/http-error-handler": "^3.3.0"
   }
 }
