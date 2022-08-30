@@ -4,12 +4,14 @@
   "description": "Serverless boilerplate, update this for the actual project",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: tests not yet configured (npx jest tests/[test_type])\" && exit 1"
   },
   "keywords": [],
   "author": "MKB Brandstof <devops@mkb-brandstof.nl>",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.1",
     "serverless": "^3.22.0",
     "serverless-domain-manager": "^6.1.0",
     "serverless-iam-roles-per-function": "^3.2.0",
