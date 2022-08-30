@@ -1,0 +1,11 @@
+---
+logging:
+  level: debug
+  retention: 14
+
+# customDomain:
+#   route53Profile: mkb
+#   domainName: "${self:service}.dev.mkb-brandstof.nl"
+#   certificateName: "*.dev.mkb-brandstof.nl"
+#   createRoute53Record: true
+#   endpointType: regional
