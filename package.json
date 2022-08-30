@@ -29,11 +29,12 @@
     "webpack": "^5.74.0",
     "webpack-node-externals": "^3.0.0"
   },
-  "lint-staged": {
-    "*.js": "npx eslint"
-  },
   "dependencies": {
     "@middy/core": "^3.3.0",
-    "@middy/http-error-handler": "^3.3.0"
+    "@middy/http-error-handler": "^3.3.0",
+    "mkb-lambda-powertools": "github:mkb-brandstof/mkb-lambda-powertools"
+  },
+  "lint-staged": {
+    "*.js": "npx eslint"
   }
 }
