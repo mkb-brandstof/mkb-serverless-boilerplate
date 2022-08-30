@@ -11,6 +11,8 @@
   "author": "MKB Brandstof <devops@mkb-brandstof.nl>",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/jest": "^29.0.0",
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
