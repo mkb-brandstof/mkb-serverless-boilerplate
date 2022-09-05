@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: tests not yet configured (npx jest tests/[test_type])\" && exit 1"
+    "test": "echo \"Error: tests not yet configured (npx jest tests/[test_type])\" && exit 1",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "MKB Brandstof <devops@mkb-brandstof.nl>",
